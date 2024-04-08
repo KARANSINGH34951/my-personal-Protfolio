@@ -1,0 +1,33 @@
+body {
+  margin: 0;
+  font: normal 75% Arial, Helvetica, sans-serif;
+  overflow-x: hidden;
+  
+}
+/* #skills{
+  background-image: url("./data/bg-yellow.jpeg");
+  object-fit: cover;
+  
+  background-repeat: no-repeat; 
+  z-index: 1;
+} */
+html{
+  overflow-x: hidden;
+}
+.mypic{
+  animation-name: mypic;
+  animation-duration: 4s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes mypic {
+  from{
+      background-color:whitesmoke;
+  }
+  to{
+      background-color: black;
+  }
+  
+} 
+
